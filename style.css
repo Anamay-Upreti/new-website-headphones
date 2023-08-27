@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+body{
+    background-color: #100f0f;
+    font-family: 'Poppins', sans-serif;
+}
+nav ul li{
+    color: white;
+    display: inline;
+    float: right;
+    position: relative;
+    right: 26%;
+    bottom: 20px;
+    padding: 19px;
+    margin:15px;
+    
+}
+
+nav ul button{
+    background-color: rgb(42, 42, 42);
+    border-top: 3px solid #888888;
+    border-left: 3px solid #888888;
+    border-right: 2px solid #100f0f;
+    border-bottom: 2px solid #100f0f;
+    font-weight: 600;
+    border-radius: 4px;
+    color: white;
+    float: right;
+    position: relative;
+    top: 14px;
+    left: 272px;
+    width: 110px;
+    height: 40px;
+    
+}
+nav ul button:hover{
+    background-color: rgb(72, 72, 72);
+    cursor: pointer;
+    color: azure;
+}
+.pov img{
+    width: 200px;
+    height: 400px;
+    position: relative;
+    top: -29px;
+    right: -333px;
+}
+.beats img{
+    position: relative;
+    bottom: 365px;
+    left: 204px;
+} 
+.oneEar img{
+    position: relative;
+    left: 809px;
+    bottom: 310px;
+    height: 72px;
+    width: 304px;
+}
+h1.title-main{
+    color: white;
+    font-weight: 900;
+    position: relative;
+    bottom: 344px;
+    left: 759px;
+    font-size: 48px;
+}
+h4.overview{
+    color: white;
+    position: relative;
+    bottom: 368px;
+    left: 760px;
+}
+h6.lorem{
+    color: white;
+    position: relative;
+    bottom: 363px;
+    left: 760px;
+    overflow: hidden;
+}
+.buy button{
+    position: relative;
+    bottom: 353px;
+    left: 760px;
+    height: 42px;
+    width: 200px;
+    background-color: #414141;
+    border-radius: 7px;
+    border: 3px #3d3d3d;
+    font-family: 'Poppins', sans-serif;
+}
+.buy button:hover{
+    background-color: #888888;
+    cursor: pointer;
+}
+.buy button img{
+    position: relative;
+    left: -80px;
+}
+.buy p.add{
+    position: relative;
+    color: white;
+    bottom: 402px;
+    left: 800px;
+    cursor: pointer;
+}
+.buy p.n399{
+    position: relative;
+    color: white;
+    bottom: 442px;
+    left: 900px;
+    cursor: pointer;
+}
+.apple{
+    position: relative;
+    bottom: 404px;
+    left: 300px;
+}
+.spotify{
+    position: relative;
+    bottom: 440px;
+    left: 512px;
+}
+.amazon{
+    position: relative;
+    bottom: 471px;
+    left: 740px;
+}
+.youtube{
+    position: relative;
+    bottom: 511px;
+    left: 1000px;
+}
+.specslogo{
+    position: relative;
+    bottom: 411px;
+    text-align: center;
+}
+.specs{
+    position: relative;
+    bottom: 359px;
+    left: 740px;
+}
+.blutoothlogo{
+    position: relative;
+    bottom: 649px;
+    left: 450px;
+}
+h5.btc{
+    color: white;
+    position: relative;
+    bottom: 669px;
+    left: 450px;
+}
+h6.btc{
+    color: white;
+    position: relative;
+    bottom: 689px;
+    left: 450px;
+}
+.batterylogo{
+    position: relative;
+    bottom: 679px;
+    left: 390px;
+    color: white;
+}
+.batteryis{
+    position: relative;
+    bottom: 702px;
+    left: 390px;
+    color: white;
+}
+.batterylife{
+    position: relative;
+    bottom: 722px;
+    left: 390px;
+    color: white;
+}
+.chargerlogo{
+    position: relative;
+    bottom: 708px;
+    left: 390px;
+}
+.chargerdef{
+    position: relative;
+    bottom: 724px;
+    left: 390px;
+    color: white;
+}
+.chargerfast{
+    color: white;
+    position: relative;
+    bottom: 740px;
+    left: 390px;
+}
+.miclogo{
+    position: relative;
+    bottom: 708px;
+    left: 450px;
+}
+h5.namemic{
+    color: white;
+    position: relative;
+    bottom: 724px;
+    left: 450px;
+}
+.applesiri{
+    color: white;
+    position: relative;
+    bottom: 744px;
+    left: 450px;
+}
+.caselogo{
+    text-align: center;
+    position: relative;
+    bottom: 670px;
+}
+.caseimage{
+    position: relative;
+    bottom: 530px;
+    left: 432px;
+}
+.casepara{
+    color: white;
+    position: relative;
+    bottom: 333px;
+    left: 363px;
+}
+.moreb{
+    background-color: #414141;
+    height: 39px;
+    width: 149px;
+    border-radius: 4px;
+    border: 4px solid #414141;
+    position: relative;
+    bottom: 330px;
+    left: 374px;
+}
+.groupimg{
+    position: relative;
+    top: 3px;
+    left: -46px;
+}
+.zyada{
+    color: white;
+    position: relative;
+    bottom: 35px;
+    left: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+.moreb:hover{
+    background-color: #8a8a8a;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 4px solid #8a8a8a;
+}
+.buy-product {
+    background: #181a1b;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 70px;
+    padding: 40px 0;
+    color: white;
+    height: 264px;
+    width: 984px;
+    position: relative;
+    bottom: 740px;
+    left: 210px;
+  }
+  
+  .buy-product div,
+  .buy-product p,
+  .buy-product h3,
+  .buy-product img {
+    background-color: transparent;
+  }
+.buynow{
+    background-color: #000000;
+    border-radius: 4px;
+    border: 4px solid #000000;;
+    height: 39px;
+    width: 120px;
+}
+.shoppingBag{
+    position: relative;
+    bottom: 10px;
+    right: 30px;
+}
+.buy12{
+    color: white;
+    position: relative;
+    bottom: 46px;
+    right: -19px;
+    font-family: 'Poppins', sans-serif;
+}
+.productlogoimg{
+    position: relative;
+    bottom: 650px;
+    left: 500px;
+}
+.container {
+    background-color: transparent;
+    width: 121px;
+    height: 119px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 890px;
+    left: 400px;
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
+  }
+  
+  .product-logo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-logo {
+    scale: 0.3;
+  }
+  
+  .product-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 50px;
+  }
+  
+  .product-card {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    background: #181a1b;
+    border-radius: 8px;
+  }
+  
+  .product-img {
+    width: 75px;
+    height: 100px;
+    position: absolute;
+    z-index: 100;
+    top: -40px;
+    left: 28px;
+  }
+  
+  .product-img,
+  .product-card p,
+  .product-card span,
+  .product-card img,
+  .product-card div {
+    background-color: transparent;
+  }
+  
+  .product-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+  
+  .product-info p {
+    font-size: 12px;
+  }
+  
+  .product-info p span {
+    color: #bdc0c2;
+  }
+  
+  .product-info div {
+    background: #0a0a0b;
+    border-radius: 8px;
+    padding: 2px 6px;
+  }
+  
+  .product-info div img {
+    width: 13px;
+    height: 13px;
+  }
+  
+  /* designing the footer section */
+  footer{
+    margin: 100px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .footer-logo{
+    scale: 0.8;
+  }
+  
+  ul li a{
+    font-size: 12px;
+    color: #BDC0C2;
+  }
+  
+  ul li:first-child a{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+  }
+  
+  ul li:first-child{
+    margin-bottom: 10px;
+  }
+  
+  .footer-subscription{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .footer-subscription div:first-child{
+    background: #181A1B;
+  border-radius: 8px;
+  padding: 5px 10px;
+  display: flex;
+  }
+  
+  .footer-subscription div:first-child input{
+    border: none;
+    background-color: transparent;
+  }
+  
+  .subscribe-button{
+    background: #0A0A0B;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .subscribe-button img{
+    scale: 0.8;
+  }
+  
+  .subscribe-button p{
+    font-size: 12px;
+  }
+  
+  .footer-subscription div:last-child img{
+    margin-right: 10px;
+    scale: 0.8;
+  }
+  
+  .arrow-up{
+    position: absolute;
+    right: -160px;
+    scale: 0.8;
+  }
